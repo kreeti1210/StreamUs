@@ -1,0 +1,164 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9; 
+  color: #333;
+    background-color: rgb(97, 133, 97); 
+}
+.header-search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(32, 72, 32); 
+  padding: 10px 20px;
+  border-bottom: 2px solid rgb(22, 50, 22);
+  color: #fff;
+}
+
+.video {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background-color: rgb(97, 133, 97); 
+  padding: 20px;
+  border-radius: 10px; 
+}
+.search-results {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background-color: rgb(97, 133, 97); 
+  padding: 20px;
+  border-radius: 10px; 
+}
+.eachvideo {
+  margin: 15px;
+  background-color: rgb(22, 50, 22);
+  width: 300px;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.eachvideo img {
+  width: 100%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.eachvideo p {
+  margin: 10px;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 10px;
+  color: #e6e6e6;
+}
+
+.eachvideo :hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+a {
+  text-decoration: none;
+  color: #0078d4; 
+  
+  font-weight: 500;
+  transition: color 0.3s, text-shadow 0.3s;
+}
+
+a:hover {
+  color: #005a9e;
+  text-shadow: 0 1px 5px rgba(0, 120, 212, 0.5);
+}
+
+.searchBarSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  margin: 20px auto;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff; 
+}
+
+#search {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+#search::placeholder {
+  color: #aaa;
+}
+
+#search-button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  background-color: rgb(1, 22, 1);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s;
+}
+
+#search-button:hover {
+  background-color: rgb(0, 50, 0);
+  transform: scale(1.1);
+}
+#clear-search-button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  margin-top: 10px;
+  font-size: 16px;
+
+  border-radius: 8px;
+  background-color: rgb(1, 22, 1);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s;
+}
+#clear-search-button:hover {
+  background-color: rgb(0, 50, 0);
+  transform: scale(1.1);
+}
+
+.channelName,
+#apptitle {
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #ffffff;
+  text-align: center;
+  background-color: rgb(22, 50, 22);
+  padding: 10px;
+  margin: 0;
+}
+
+.channelName {
+  font-size: 18px;
+}
+
+#apptitle {
+  font-size: 22px;
+  display: flex; 
+  align-items: center; 
+  font-size: 24px;
+}
+.icon {
+  width: 30px;
+  height: 30px; 
+  margin-right: 10px;
+}

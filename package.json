@@ -1,0 +1,13 @@
+{
+  "name": "youtubestreaming",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "http://127.0.0.1:5500/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module"
+}
